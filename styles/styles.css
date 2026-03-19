@@ -1,5 +1,12 @@
+:root {
+    --primary-color: #2a8fd3;
+    --secondary-color: #9f1db1;
+    --font-size-large: 24px;
+    --margin-standard: 16px;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--secondary-color);
     padding: 10px;
 }
 
@@ -10,13 +17,13 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 5px solid var(--secondary-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
