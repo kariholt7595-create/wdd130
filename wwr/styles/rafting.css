@@ -86,9 +86,8 @@ h1 {
 .hero article img {
     float: right;
     width: 175px;
-    bottom: 100px;
-    right: 25px;
-    margin-right: 15px;
+    bottom: 0px;
+    right: 10px;
 }
 
 h2 {
