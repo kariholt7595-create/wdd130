@@ -26,7 +26,7 @@ body {
 header,
 main,
 footer {
-    width: 840 px;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -53,6 +53,7 @@ article {
 }
 
 .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
@@ -66,10 +67,10 @@ h1 {
     text-align: center;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     display: block;
     bottom: 25px;
