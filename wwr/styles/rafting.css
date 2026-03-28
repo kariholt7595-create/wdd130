@@ -97,7 +97,7 @@ h1 {
     display: block;
     bottom: 25px;
     left: 0;
-    width: 100;
+    width: 100%;
     padding: 16px;
     text-align: left;
     opacity: .7;
