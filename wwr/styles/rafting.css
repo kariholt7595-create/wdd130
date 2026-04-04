@@ -81,10 +81,10 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 840px;
     padding: 16px;
     text-align: center;
     opacity: .7;
@@ -122,7 +122,7 @@ article p {
     align-items: center;
 }
 
-h2 {
+.section1-grid h2 {
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
@@ -183,26 +183,34 @@ footer p {
     align-content: center;
 }
 
-h3 {
+main h1 {
+    margin: 0;
     text-align: center;
-    margin-top: 10px;
+    color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 
-h4 {
+main h2 {
     text-align: center;
+    color: var(--accent1-color);
+
 }
 
-.map {
+.map iframe {
+    width: 100%;
+    max-width: 400px;
     margin-top: 10px;
+    border: 0;
 }
 
 .section3-grid h2 {
     grid-column: 1/4;
     text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 
 .section3-grid {
-    display: block;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px
