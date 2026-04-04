@@ -116,7 +116,7 @@ article p {
     margin-right: 190px;
 }
 
-section {
+.section1-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
@@ -131,7 +131,6 @@ h2 {
 
 .left {
     grid-column: 1/2;
-
 }
 
 .right {
@@ -182,4 +181,108 @@ footer nav {
 footer p {
     justify-self: center;
     align-content: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.map {
+    margin-top: 10px;
+}
+
+.section3-grid h2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.section3-grid {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+}
+
+.section3-grid figure {
+    margin: 0;
+    text-align: center;
+}
+
+.section3-grid figure img {
+    width: 100%;
+    height: auto;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 105px 260px;
+    gap: 12px 15px;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.contact-form label {
+    margin-top: 6px;
+}
+
+.contact-form input[type="text"] .contact-form input[type="email"],
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.radio-group {
+    display: grid;
+    gap: 10px;
+    justify-items: start;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.top-align {
+    align-self: start;
+}
+
+.checkbox-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0;
+}
+
+.contact-form button {
+    cursor: pointer;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    width: auto;
+    padding: 0%;
+}
+
+.message-area {
+    width: 375px;
+}
+
+.full-row {
+    grid-column: 1/3;
 }
